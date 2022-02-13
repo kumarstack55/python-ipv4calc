@@ -1,8 +1,15 @@
 # python-ipv4calc
 
+## Requirements
+
+* Poetry 1.1+
+
 ## Installation
 
 ```powershell
+gh repo clone kumarstack55/python-ipv4calc
+cd python-ipv4calc
+poetry install
 ```
 
 ## Usage
@@ -20,3 +27,7 @@ networkBinary   : 11000000.10101000.00000000.00000000
 netmaskBinary   : 11111111.11111111.11111111.00000000
 broadcastBinary : 11000000.10101000.00000000.11111111
 ```
+
+## License
+
+MIT
