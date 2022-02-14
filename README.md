@@ -1,5 +1,7 @@
 # python-ipv4calc
 
+A tool for expressing IPv4 addresses in binary and decimal numbers.
+
 ## Requirements
 
 * Python 3.3+
@@ -8,7 +10,7 @@
 ## Installation
 
 ```powershell
-gh repo clone kumarstack55/python-ipv4calc
+git clone https://github.com/kumarstack55/python-ipv4calc.git
 cd python-ipv4calc
 poetry install
 ```
