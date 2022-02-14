@@ -18,21 +18,21 @@ poetry install
 ## Usage
 
 ```console
-PS > poetry run ipv4calc 192.168.1.0/24
-address          : 192.168.1.0
-network          : 192.168.1.0
+PS > poetry run ipv4calc 192.168.0.1/24
+address          : 192.168.0.1
+network          : 192.168.0.0
 netmask          : 255.255.255.0
-broadcast        : 192.168.1.255
+broadcast        : 192.168.0.255
 addressPrefix    : 24
 numAddresses     : 256
-addressBinary    : 11000000.10101000.00000001.00000000
-networkBinary    : 11000000.10101000.00000001.00000000
+addressBinary    : 11000000.10101000.00000000.00000001
+networkBinary    : 11000000.10101000.00000000.00000000
 netmaskBinary    : 11111111.11111111.11111111.00000000
-broadcastBinary  : 11000000.10101000.00000001.11111111
-addressDecimal   : 3232235776
-networkDecimal   : 3232235776
+broadcastBinary  : 11000000.10101000.00000000.11111111
+addressDecimal   : 3232235521
+networkDecimal   : 3232235520
 netmaskDecimal   : 4294967040
-broadcastDecimal : 3232236031
+broadcastDecimal : 3232235775
 ```
 
 ```console
